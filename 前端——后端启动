@@ -1,0 +1,17 @@
+#《《《 后端启动代码》》》
+# 进入虚拟环境目录
+cd "d:\pc_multimodal_rag\multimodal_rag\Scripts"
+# 激活虚拟环境
+.\activate
+# 进入 backend 目录
+cd "d:\pc_multimodal_rag\backend"
+# 启动服务
+python main_service.py
+
+
+
+#《《《 前端启动代码》》》
+# 进入 frontend 目录
+cd "d:\pc_multimodal_rag\frontend"
+# 启动开发服务器
+npm run dev
